@@ -8,13 +8,13 @@ class App extends React.Component {
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{pageContents.title}</h1>
-		<h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
-		<List {...listData}
-		>
+        <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
+        <List {...listData}
+        >
 			
-		</List>
+        </List>
       </main>
-    )
+    );
   }
 }
 
