@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  defaultHeaderIcon: 'sun',
 };
 
 export const pageContents = {
@@ -141,11 +142,25 @@ const cards = [
   },
 ];
 
+const subpages = [
+  {
+    id: 'info',
+    title: 'Information',
+    image: 'https://cdn.pixabay.com/photo/2021/07/07/04/40/sphinx-6393184_960_720.png',
+  },
+  {
+    id: 'faq',
+    title: 'Frequently asked question',
+    image: 'https://cdn.pixabay.com/photo/2020/10/27/12/50/cat-5690627_960_720.png',
+  },
+];
+
 const initialStoreData = {
   app: {...pageContents},
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+  subpages: [...subpages],
 };
 
 export default initialStoreData;
